@@ -1,0 +1,18 @@
+[project]
+name = "multi-sender-dope"
+requirements = []
+
+[contracts.sip009-nft-trait]
+path = "contracts/traits/sip009-nft-trait.clar"
+depends_on = []
+
+[contracts.sip010-ft-trait]
+path = "contracts/traits/sip010-ft-trait.clar"
+depends_on = []
+
+[contracts.multi-sender-dope]
+path = "contracts/multi-sender-dope.clar"
+depends_on = ["sip009-nft-trait", "sip010-ft-trait"]
+
+
+
