@@ -1,5 +1,5 @@
 [project]
-name = "multi-sender-dope"
+name = "transtacks-dope"
 requirements = []
 
 [contracts.sip009-nft-trait]
@@ -10,9 +10,51 @@ depends_on = []
 path = "contracts/traits/sip010-ft-trait.clar"
 depends_on = []
 
-[contracts.multi-sender-dope]
-path = "contracts/multi-sender-dope.clar"
+[contracts.transtacks-dope]
+path = "contracts/transtacks-dope.clar"
 depends_on = ["sip009-nft-trait", "sip010-ft-trait"]
 
+[contracts.transtacks-0-base]
+path = "contracts/transtacks-0-base.clar"
+depends_on = ["sip009-nft-trait", "sip010-ft-trait", "transtacks-dope"]
+
+[contracts.transtacks-1-base]
+path = "contracts/transtacks-1-base.clar"
+depends_on = ["sip009-nft-trait", "sip010-ft-trait", "transtacks-dope"]
+
+[contracts.transtacks-2-base]
+path = "contracts/transtacks-2-base.clar"
+depends_on = ["sip009-nft-trait", "sip010-ft-trait", "transtacks-dope"]
+
+[contracts.transtacks-3-base]
+path = "contracts/transtacks-3-base.clar"
+depends_on = ["sip009-nft-trait", "sip010-ft-trait", "transtacks-dope"]
+
+[contracts.transtacks-4-base]
+path = "contracts/transtacks-4-base.clar"
+depends_on = ["sip009-nft-trait", "sip010-ft-trait", "transtacks-dope"]
+
+[contracts.transtacks-5-base]
+path = "contracts/transtacks-5-base.clar"
+depends_on = ["sip009-nft-trait", "sip010-ft-trait", "transtacks-dope"]
 
 
+[contracts.transtacks-6-base]
+path = "contracts/transtacks-6-base.clar"
+depends_on = ["sip009-nft-trait", "sip010-ft-trait", "transtacks-dope"]
+
+[contracts.transtacks-7-base]
+path = "contracts/transtacks-7-base.clar"
+depends_on = ["sip009-nft-trait", "sip010-ft-trait", "transtacks-dope"]
+
+[contracts.transtacks-8-base]
+path = "contracts/transtacks-8-base.clar"
+depends_on = ["sip009-nft-trait", "sip010-ft-trait", "transtacks-dope"]
+
+[contracts.transtacks-9-base]
+path = "contracts/transtacks-9-base.clar"
+depends_on = ["sip009-nft-trait", "sip010-ft-trait", "transtacks-dope"]
+
+[contracts.transtacks-10-base]
+path = "contracts/transtacks-10-base.clar"
+depends_on = ["sip009-nft-trait", "sip010-ft-trait", "transtacks-dope"]

@@ -1,0 +1,80 @@
+---
+id: 0
+name: Mainnet deployment
+network: mainnet
+stacks-node: "https://stacks-node-api.mainnet.stacks.co"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoin.blockstack.com:8332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: sip010-ft-trait
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 8120
+            path: contracts/traits/sip010-ft-trait.clar
+        - contract-publish:
+            contract-name: sip009-nft-trait
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 4570
+            path: contracts/traits/sip009-nft-trait.clar
+        - contract-publish:
+            contract-name: transtacks-dope
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 12440
+            path: contracts/transtacks-dope.clar
+        - contract-publish:
+            contract-name: transtacks-6-base
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 780230
+            path: contracts/transtacks-6-base.clar
+        - contract-publish:
+            contract-name: transtacks-9-base
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 918190
+            path: contracts/transtacks-9-base.clar
+        - contract-publish:
+            contract-name: transtacks-0-base
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 502030
+            path: contracts/transtacks-0-base.clar
+        - contract-publish:
+            contract-name: transtacks-3-base
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 645160
+            path: contracts/transtacks-3-base.clar
+        - contract-publish:
+            contract-name: transtacks-10-base
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 965230
+            path: contracts/transtacks-10-base.clar
+        - contract-publish:
+            contract-name: transtacks-2-base
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 596300
+            path: contracts/transtacks-2-base.clar
+        - contract-publish:
+            contract-name: transtacks-4-base
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 688500
+            path: contracts/transtacks-4-base.clar
+        - contract-publish:
+            contract-name: transtacks-7-base
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 826210
+            path: contracts/transtacks-7-base.clar
+        - contract-publish:
+            contract-name: transtacks-8-base
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 872220
+            path: contracts/transtacks-8-base.clar
+        - contract-publish:
+            contract-name: transtacks-1-base
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 550290
+            path: contracts/transtacks-1-base.clar
+        - contract-publish:
+            contract-name: transtacks-5-base
+            expected-sender: SP376VXPZGBQC6W0B8XEKG6E6FZNN0PR0W7H6DWRH
+            cost: 734250
+            path: contracts/transtacks-5-base.clar
